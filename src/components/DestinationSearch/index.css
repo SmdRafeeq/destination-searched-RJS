@@ -1,0 +1,49 @@
+.bg-container {
+    display: flex;
+    justify-content: center;
+}
+
+.destination-search-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 1140px;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.search-input-con {
+    display: flex;
+    background-color: #f1f5f9;
+    margin-left: 15px;
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+.search-input {
+    color: #0f172a;
+    background-color: #f1f5f9;
+    font-family: "Open Sans";
+    font-size: 14px;
+    border: none;
+    outline: non;
+    font-weight: 500;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.destinations-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    flex-wrap: wrap;
+}
+
